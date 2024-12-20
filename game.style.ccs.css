@@ -1,0 +1,53 @@
+style
+header{
+nav {
+    position: relative;
+    padding: auto;
+    top: 20px;
+    right: 20px;
+}
+
+nav a {
+    background-color: #444;
+    color: rgb(122, 153, 180);
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav a i {
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+}
+body {
+    background-color: rgb(101, 85, 85);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: center;
+}
+.centered-image {
+    display: inside;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%; /* Adjust the width as needed */
+}
+button {
+    image-rendering: auto;
+    color: #de0404;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
